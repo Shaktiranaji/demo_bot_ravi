@@ -8,7 +8,7 @@ import random
 from datetime import date as d
 from core import (bot_token, mongo_url, admins)
 
-bot = telebot.TeleBot(bot_token)
+bot = telebot.TeleBot(5294181053:AAHtyaPth1V1KdSUerAtkOLYiBvf5exk5eM)
 client = pymongo.MongoClient(mongo_url)
 #db = client['Demo']
 db = client[f'{bot.get_me().username}']
